@@ -1,0 +1,31 @@
+html {
+  background: url("images/airplane\ background\ image.jpg") no-repeat center
+    fixed;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 500px;
+  padding: 50px 100px;
+  border-radius: 25px;
+  margin: 25px auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+ol {
+  margin-left: 75px;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+#yesterday1:hover {
+  transition-duration: 0.4s;
+  color: red;
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
